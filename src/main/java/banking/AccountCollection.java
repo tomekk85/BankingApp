@@ -17,6 +17,7 @@ public class AccountCollection implements Serializable {
         load();
     }
 
+    //saves collection into file
     public void save(){
         try {
             SerializationUtils.serialize(accounts, pathToFile);
@@ -25,6 +26,7 @@ public class AccountCollection implements Serializable {
         }
     }
 
+    //loads collection from file
     public void load(){
         try {
             accounts = (HashMap<Long, Account>) SerializationUtils.deserialize(pathToFile);
@@ -43,6 +45,7 @@ public class AccountCollection implements Serializable {
                     "Account with provided account number already exists in collection");
         }
     }
+
     public void updateAccount(Account account){
         if (accounts.containsKey(account.getCardNumber())) {
             accounts.replace(account.getCardNumber(), account);
@@ -80,6 +83,7 @@ public class AccountCollection implements Serializable {
         return false;
     }
 
+    //prints all Acounts into console
     public void print(){
         accounts.entrySet().stream().forEach(acc -> System.out.println(acc.getValue().toString()));
     }
