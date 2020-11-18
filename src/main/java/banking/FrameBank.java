@@ -118,7 +118,7 @@ public class FrameBank extends javax.swing.JFrame {
 
         textFieldAmount.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         textFieldAmount.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        textFieldAmount.setText("140.00");
+        textFieldAmount.setText("");
         textFieldAmount.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 textFieldAmountKeyTyped(evt);

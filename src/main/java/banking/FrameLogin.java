@@ -97,12 +97,12 @@ public class FrameLogin extends javax.swing.JFrame {
             System.out.println(e);
         }
         textFieldCardNumber.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        textFieldCardNumber.setText("4000 0029 8088 7697");
+        textFieldCardNumber.setText("4000 0000 0000 0000");
         textFieldCardNumber.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
 
         passwordFieldPin.setFont(new java.awt.Font("Tahoma", 0, 22)); // NOI18N
         passwordFieldPin.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        passwordFieldPin.setText("****");
+        passwordFieldPin.setText("");
         passwordFieldPin.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 passwordFieldPinKeyTyped(evt);
@@ -179,10 +179,6 @@ public class FrameLogin extends javax.swing.JFrame {
         } else {
             JOptionPane.showMessageDialog(null,"Niewłaściwy numer konta lub błędny PIN!");
         }
-
-        //USUNĄĆ!!!!
-        accounts.print();
-        System.out.println("karta: "+ cardNumber + "PIN: " + pin);
     }
 
     private void passwordFieldPinKeyTyped(java.awt.event.KeyEvent evt) {
