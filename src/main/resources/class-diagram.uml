@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="746.0" y="0.0">banking.AccountCollection</node>
+    <node x="361.0" y="0.0">banking.FrameLogin</node>
+    <node x="0.0" y="0.0">banking.FrameBank</node>
+    <node x="0.0" y="818.0">banking.SerializationUtils</node>
+    <node x="0.0" y="519.0">banking.FrameAccountGenerator</node>
+    <node x="631.0" y="519.0">banking.Logger</node>
+    <node x="386.0" y="519.0">banking.Account</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="320.0" y="649.9999999999999" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
