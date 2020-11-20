@@ -194,20 +194,17 @@ public class FrameBank extends javax.swing.JFrame {
     }// </editor-fold>
 
     private void buttonLogoutActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
         new FrameLogin(account).setVisible(true);
         this.dispose();
     }
 
     private void buttonDepositActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
         operation = "deposit";
         lblAmount.setText("Podaj kwotę wpłaty");
         panelOperations.setVisible(true);
     }
 
     private void buttonPayOutActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
         operation = "payout";
         lblAmount.setText("Podaj kwotę wypłaty");
         panelOperations.setVisible(true);

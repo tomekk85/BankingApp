@@ -153,7 +153,6 @@ public class FrameLogin extends javax.swing.JFrame {
     }// </editor-fold>
 
     private void buttonLoginActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
         String pin = passwordFieldPin.getText().toString();
         Long cardNumber = Long.parseLong(textFieldCardNumber.getText().replace(" ", ""));
 
@@ -179,7 +178,6 @@ public class FrameLogin extends javax.swing.JFrame {
     }
 
     private void buttonNewAccountActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
         Account account = new Account();
         while (accounts.containsAccount(account)) {
             account = new Account();
