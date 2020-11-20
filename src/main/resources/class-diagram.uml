@@ -3,18 +3,118 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="746.0" y="0.0">banking.AccountCollection</node>
-    <node x="361.0" y="0.0">banking.FrameLogin</node>
-    <node x="0.0" y="0.0">banking.FrameBank</node>
-    <node x="0.0" y="818.0">banking.SerializationUtils</node>
-    <node x="0.0" y="519.0">banking.FrameAccountGenerator</node>
-    <node x="631.0" y="519.0">banking.Logger</node>
-    <node x="386.0" y="519.0">banking.Account</node>
+    <node x="789.2138157894738" y="379.0">banking.AccountCollection</node>
+    <node x="530.6118421052632" y="1107.0">banking.FrameLogin</node>
+    <node x="0.0" y="302.0">banking.FrameBank</node>
+    <node x="906.0263157894738" y="78.0">banking.SerializationUtils</node>
+    <node x="336.00000000000006" y="412.0">banking.FrameAccountGenerator</node>
+    <node x="625.6118421052632" y="1521.0">banking.Main</node>
+    <node x="709.0" y="826.0">banking.Logger</node>
+    <node x="585.5888157894738" y="0.0">banking.Account</node>
   </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="320.0" y="649.9999999999999" />
-  <SelectedNodes />
+  <edges>
+    <edge source="banking.FrameLogin" target="banking.Logger">
+      <point x="51.0" y="-182.0" />
+      <point x="751.6118421052632" y="1087.0" />
+      <point x="775.0" y="1087.0" />
+      <point x="-66.0" y="105.5" />
+    </edge>
+    <edge source="banking.Main" target="banking.FrameLogin">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="182.0" />
+    </edge>
+    <edge source="banking.FrameLogin" target="banking.FrameAccountGenerator">
+      <point x="-85.0" y="-182.0" />
+      <point x="615.6118421052632" y="1067.0" />
+      <point x="501.2006578947369" y="1067.0" />
+      <point x="501.2006578947369" y="801.0" />
+      <point x="421.25000000000006" y="801.0" />
+      <point x="-85.25" y="127.0" />
+    </edge>
+    <edge source="banking.FrameLogin" target="banking.FrameBank">
+      <point x="-153.0" y="-182.0" />
+      <point x="547.6118421052632" y="1087.0" />
+      <point x="152.70065789473688" y="1087.0" />
+      <point x="152.70065789473688" y="801.0" />
+      <point x="79.0" y="801.0" />
+      <point x="-79.0" y="237.0" />
+    </edge>
+    <edge source="banking.FrameAccountGenerator" target="banking.FrameLogin">
+      <point x="85.25" y="127.0" />
+      <point x="591.75" y="801.0" />
+      <point x="512.2006578947369" y="801.0" />
+      <point x="512.2006578947369" y="1057.0" />
+      <point x="649.6118421052632" y="1057.0" />
+      <point x="-51.0" y="-182.0" />
+    </edge>
+    <edge source="banking.Logger" target="banking.Account">
+      <point x="-88.0" y="-105.5" />
+      <point x="753.0" y="801.0" />
+      <point x="731.4506578947369" y="801.0" />
+      <point x="731.4506578947369" y="282.0" />
+      <point x="715.5888157894738" y="282.0" />
+      <point x="30.0" y="116.0" />
+    </edge>
+    <edge source="banking.AccountCollection" target="banking.Account">
+      <point x="-112.125" y="-160.0" />
+      <point x="826.5888157894738" y="272.0" />
+      <point x="735.5888157894738" y="272.0" />
+      <point x="50.0" y="116.0" />
+    </edge>
+    <edge source="banking.AccountCollection" target="banking.SerializationUtils">
+      <point x="112.125" y="-160.0" />
+      <point x="1050.8388157894738" y="282.0" />
+      <point x="1006.0263157894738" y="282.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="banking.FrameBank" target="banking.FrameLogin">
+      <point x="79.0" y="237.0" />
+      <point x="237.0" y="801.0" />
+      <point x="163.70065789473688" y="801.0" />
+      <point x="163.70065789473688" y="1077.0" />
+      <point x="581.6118421052632" y="1077.0" />
+      <point x="-119.0" y="-182.0" />
+    </edge>
+    <edge source="banking.FrameAccountGenerator" target="banking.Account">
+      <point x="-85.25" y="-127.0" />
+      <point x="421.25000000000006" y="272.0" />
+      <point x="635.5888157894738" y="272.0" />
+      <point x="-50.0" y="116.0" />
+    </edge>
+    <edge source="banking.Logger" target="banking.AccountCollection">
+      <point x="0.0" y="-105.5" />
+      <point x="841.0" y="801.0" />
+      <point x="826.5888157894738" y="801.0" />
+      <point x="-112.125" y="160.0" />
+    </edge>
+    <edge source="banking.FrameLogin" target="banking.AccountCollection">
+      <point x="119.0" y="-182.0" />
+      <point x="819.6118421052632" y="1077.0" />
+      <point x="983.5" y="1077.0" />
+      <point x="983.5" y="801.0" />
+      <point x="976.0888157894738" y="801.0" />
+      <point x="37.375" y="160.0" />
+    </edge>
+    <edge source="banking.FrameLogin" target="banking.Account">
+      <point x="17.0" y="-182.0" />
+      <point x="717.6118421052632" y="1087.0" />
+      <point x="698.5" y="1087.0" />
+      <point x="698.5" y="282.0" />
+      <point x="695.5888157894738" y="282.0" />
+      <point x="10.0" y="116.0" />
+    </edge>
+    <edge source="banking.FrameBank" target="banking.Account">
+      <point x="-79.0" y="-237.0" />
+      <point x="79.0" y="252.0" />
+      <point x="595.5888157894738" y="252.0" />
+      <point x="-90.0" y="116.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4200626959247649" x="553.5" y="787.5" />
+  <SelectedNodes>
+    <node>banking.Account</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>
